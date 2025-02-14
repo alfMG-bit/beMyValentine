@@ -1,0 +1,69 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    color: #c62828;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px ;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#timePassed{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#timePassed span{
+    font-weight: bold;
+    color: #e91e63
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+#yesButton{
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#noButton{
+    background-color: #c62828;
+    color: white;
+    position: absolute;
+}
+
+#response{
+    margin-top: 20px;
+}
+
+#responseImage{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
